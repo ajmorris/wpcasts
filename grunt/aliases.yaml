@@ -1,0 +1,12 @@
+default:
+    - 'concurrent:second'
+    - 'concurrent:third'
+    - 'concurrent:fourth'
+    - 'concurrent:fifth'
+    - 'watch'
+
+prod:
+    - 'concurrent:first'
+    - 'concurrent:third'
+    - 'concurrent:fourth'
+    - 'concurrent:fifth'
